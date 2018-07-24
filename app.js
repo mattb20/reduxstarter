@@ -4,6 +4,9 @@ const reducer = (state, action) =>
 	action.type === 'INC'
 		? state + 1
 		: state;
+	action.type === 'DEC'
+	? state
+	: state + 1;	
 
 const initialState = 0;
 
